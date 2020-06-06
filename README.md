@@ -18,4 +18,5 @@ This repository is the official implementation of the paper `An Online Sequentia
 
 ## Reproduce simulation results
 ### Synthetic data
-- 
+- move to `simulation` folder, and separately run all the python scripts, i.e. ```python SABC_nonlinear_HTE.py &```, this will take several minutes, we have provided all our results as pickled files in `simulation/result/` folder as `ATE.pkl` and `HTE.pkl`.
+- then open ```post_processing.ipynb```, run all the cells, we will obtain all the tables and figures in our paper.
